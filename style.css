@@ -19,7 +19,8 @@
 
 }
 
-@media only screen and (max-width:600px){
+
+@media only screen and (max-width:774px){
     .three_line_menu div{
         width: 35px;
         height: 5px;
@@ -39,7 +40,7 @@
 
 }
 
-@media only screen and (max-width:764px){
+@media only screen and (max-width:600px){
     .three_line_menu div{
         width: 35px;
         height: 5px;
@@ -142,6 +143,32 @@
 
 /* *****responsive header part end here**** */
 
+@media only screen and (max-width: 774px){
+    #header{
+       
+        flex-wrap: wrap;
+        margin:auto;
+    }
+
+    .header-div-1{
+        width: 100%;
+        padding-left: 60px;
+    
+    }
+
+    .header-div-2{
+        width: 100%;
+        
+    }
+    .header-div-2 img{
+        width:85%;
+        padding-left:20px;
+        padding-right: 30px;
+    }
+
+
+}
+
 @media only screen and (max-width: 600px){
     #header{
        
@@ -169,34 +196,6 @@
 
 
 }
-
-@media only screen and (max-width: 764px){
-    #header{
-       
-        flex-wrap: wrap;
-        margin:auto;
-    }
-
-    .header-div-1{
-        width: 100%;
-        padding-left: 60px;
-    
-    }
-
-    .header-div-2{
-        width: 100%;
-        
-    }
-    .header-div-2 img{
-        width:85%;
-        padding-left:20px;
-        padding-right: 30px;
-    }
-
-
-}
-
-
 
 /*----header section design end here ----*/
 
@@ -258,6 +257,19 @@
 }
 
 /* .....Responsive Design start...... */
+
+@media only screen and (max-width:774px){
+    .body-section{
+
+        width:90%;
+        grid-template-columns: 50% 50%;
+        grid-gap:25px 25px;
+         
+    }
+     
+
+}
+
 @media only screen and (max-width:600px){
     .body-section{
 
@@ -270,17 +282,6 @@
 
 }
 
-@media only screen and (max-width:764px){
-    .body-section{
-
-        width:90%;
-        grid-template-columns: 50% 50%;
-        grid-gap:25px 25px;
-         
-    }
-     
-
-}
 
 
 /* .....Responsive Design end...... */
@@ -338,6 +339,23 @@
 
 /* -----Responsive design start here--- */
 
+@media only screen and (max-width:774px) {
+
+    .highlt-sec{
+        width: 90%;
+       
+        grid-template-columns:100%;
+    }
+    .highlt-child-div{
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
+    
+    }
+
+}
+
+
 @media only screen and (max-width:600px) {
 
     .highlt-sec{
@@ -353,23 +371,6 @@
     }
 
 }
-
-@media only screen and (max-width:764px) {
-
-    .highlt-sec{
-        width: 90%;
-       
-        grid-template-columns:100%;
-    }
-    .highlt-child-div{
-        width: 90%;
-        margin: auto;
-        margin-top: 20px;
-    
-    }
-
-}
-
 
 
 /* -----Responsive design end here--- */
@@ -417,15 +418,6 @@
  }
 
  /* .....Responsive design start here...... */
- @media only screen and (max-width:450px){
-
-    .ftr-div{
-  
-        width:80%;
-        
-    }
-
- }
  
  @media only screen and (max-width:764px){
 
@@ -437,6 +429,15 @@
 
  }
  
+ @media only screen and (max-width:450px){
+
+    .ftr-div{
+  
+        width:80%;
+        
+    }
+
+ }
 
 
 
